@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section class="main">
+      <input type="text" id="screen" readonly/>
+      <div class="numbers">
+        <h3 onclick="clearScreen('')" class="sign">B</h3>
+        <h3 class="sign" onclick="display('÷')">÷</h3>
+        <h3 class="sign" onclick="display('*')">x</h3>
+        <h3 class="sign" onclick="display('←')">←</h3>
+        <h3 class="number" onclick="display('7')">7</h3>
+        <h3 class="number" onclick="display('8')">8</h3>
+        <h3 class="number" onclick="display('9')">9</h3>
+        <h3 class="sign" onclick="display('+')">+</h3>
+        <h3 class="number" onclick="display('4')">4</h3>
+        <h3 class="number" onclick="display('5')">5</h3>
+        <h3 class="number" onclick="display('6')">6</h3>
+        <h3 class="sign" onclick="display('-')">-</h3>
+        <h3 class="number" onclick="display('1')">1</h3>
+        <h3 class="number" onclick="display('2')">2</h3>
+        <h3 class="number" onclick="display('3')">3</h3>
+        <h3 onclick="calculate()"id="equals" class="sign">=</h3>
+        <!-- <h3>%</h3> -->
+        <h3 class="sign">%</h3>
+        <h3 class="number">0</h3>
+        <h3 class="sign">.</h3>
+      </div>
+    </section>
+  </body>
 </html>
