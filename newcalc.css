@@ -1,6 +1,7 @@
 button{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
     background-color: black;
     color: white;
     padding: 20px;
@@ -14,6 +15,8 @@ button{
 .numbers{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
     max-width: 300px;
     gap: 10px;
 }
