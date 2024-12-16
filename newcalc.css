@@ -7,6 +7,8 @@ button{
     border: none;
     border-radius: 10px;
     font-size: 1rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .numbers{
@@ -16,6 +18,14 @@ button{
     gap: 10px;
 }
 
+button:hover{
+    background-color: rgb(62, 62, 62);
+}
+
+button:active{
+    background-color: rgb(179, 179, 179);
+    color: black;
+}
 .calculator{
     display: grid;
     align-items: center;
