@@ -1,0 +1,53 @@
+button{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.numbers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 300px;
+    gap: 10px;
+}
+
+.calculator{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(50, 50, 80);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input{
+    padding: 20px;
+    width: 16rem;
+    border: none;
+    margin: 10px 0px;
+}
+
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signs{
+    background-color: orange;
+}
+
+.signs:hover{
+    background-color: rgb(216, 141, 10);
+}
+
+.signs:active{
+    background-color: rgb(255, 185, 54);
+}
